@@ -6,6 +6,7 @@ Front to end analysis pipeline of the rental prices in Munich. Logic inside pyth
 ### 1. Raw Data Inputs
 - [Rental Prices Proxy](https://insideairbnb.com/get-the-data/)
 - [Munich Municipal Datasets](https://opendata.muenchen.de/dataset/)
+- Main Refinancing Rate via EZB-API/SDW
 
 ### 2. Build Database based on Medallion Architecture (Python + SQL + Unity Catalog)
 - **Bronze**: Raw scraped data
