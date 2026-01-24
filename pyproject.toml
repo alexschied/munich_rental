@@ -6,7 +6,8 @@ build-backend = "hatchling.build"
 name = "otc_markets"
 version = "0.1.0"
 dependencies = [
-	"polars"
+	"polars",
+    "beautifulsoup4",
 ]
 
 [project.optional-dependencies]

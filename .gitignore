@@ -2,12 +2,10 @@
 *.DS_Store
 
 # Ignore everything inside data folders except the folders themselves
-data/raw/*
-data/processed/*
+data/bronze/*
+data/silver/*
+data/gold/*
 
-# Keep the empty folders
-!data/raw/.gitkeep
-!data/processed/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
