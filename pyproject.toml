@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "otc_markets"
+version = "0.1.0"
+dependencies = [
+	"polars"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "ipykernel",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/otc_markets"]
